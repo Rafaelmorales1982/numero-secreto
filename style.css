@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+
+:root {
+  --fonte-titulo: "Russo One", sans-serif;
+  --cor-fundo: #f3e99f;
+  --cor-primaria: #f7d060;
+  --cor-secudaria: #ff6d60;
+  --cor-detalhes: #98d8aa;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  color: var(--cor-secudaria);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+  font-family: var(--fonte-titulo);
+}
+
+h1 {
+  font-size: 5em;
+}
+
+h2 {
+  font-size: 5em;
+}
+h3 {
+  font-size: 2.5em;
+  margin-top: 20px;
+}
+
+.mensagem {
+  font-size: 1.5em;
+  margin-top: 50px;
+}
+
+.box {
+  border: 5px solid var(--cor-primaria);
+  display: inline-block;
+  font-size: 3em;
+  padding: 10px;
+  margin: 20px;
+}
+
+.btn-jogar {
+  padding: 8px 15px;
+  border: 0;
+  background-color: var(--cor-primaria);
+  border-radius: 8px;
+  margin-top: 20px;
+  font-family: var(--fonte-titulo);
+  color: var(--cor-secudaria);
+}
+/* Desenvolvido por Cassio Jhones  */
